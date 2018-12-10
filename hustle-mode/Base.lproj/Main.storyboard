@@ -60,6 +60,14 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cloudHolder" destination="qXT-8b-krp" id="A5O-F4-sKl"/>
+                        <outlet property="darkBlueBG" destination="KQH-Kw-VvN" id="A15-xe-dIB"/>
+                        <outlet property="hustleLbl" destination="Y0P-dA-Lu9" id="KjF-Rk-az4"/>
+                        <outlet property="onLbl" destination="Fg6-ls-s9u" id="Ws6-Gd-Tep"/>
+                        <outlet property="powerBtn" destination="tbf-eI-Sev" id="Bt5-FZ-klh"/>
+                        <outlet property="rocket" destination="WD5-5b-Uvs" id="rP0-bs-3dS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
