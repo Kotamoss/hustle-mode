@@ -26,6 +26,8 @@ class ViewController: UIViewController {
     @IBAction func powerBtnPressed(_ sender: Any) {
         cloudHolder.isHidden = false
         darkBlueBG.isHidden = true
+        powerBtn.isHidden = true
+        
     }
     
 }
